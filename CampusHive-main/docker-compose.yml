@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: baibhav2026/my-vite-site:latest
+    container_name: campushive_frontend
+    ports:
+      - "80:80"
+    restart: always
+    
